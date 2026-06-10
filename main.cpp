@@ -704,17 +704,17 @@ int main() {
     //     read_pokemon_data(i).display();
     // }
 
-    vector <Pokemon> riju, riaan;
+    vector <Pokemon> p1, p2;
 
     Battle *battle;
     for (int i=0; i<6; i++) {
-        riju.push_back(getRandomPokemon());
+        p1.push_back(getRandomPokemon());
     }
-    riaan.push_back(readPokemonData(145));
-    riaan.push_back(readPokemonData(150));
-    riaan.push_back(readPokemonData(6));
-    riaan.push_back(readPokemonData(131));
-    riaan.push_back(readPokemonData(59));
-    riaan.push_back(readPokemonData(94));
-    battle->mainBattle(riaan, riju);
+    p2.push_back(readPokemonData(145));
+    p2.push_back(readPokemonData(150));
+    p2.push_back(readPokemonData(6));
+    p2.push_back(readPokemonData(131));
+    p2.push_back(readPokemonData(59));
+    p2.push_back(readPokemonData(94));
+    battle->mainBattle(p2, p1);
 }
