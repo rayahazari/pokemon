@@ -30,14 +30,28 @@ A high-performance, custom-built Pokémon battle simulator written in C++ and wr
 
 ## Installation & Setup
 
-### 1. Install Dependencies
+### 1. Setup Virtual Environment
+
+* On Linux/Mac:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+* On Windows:
+```bash
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+### 2. Install Dependencies
 
 Ensure you have Python 3 installed, then install the required Python libraries inside your virtual environment:
 ```bash
 pip install gymnasium stable-baselines3 numpy pybind11
 ```
 
-### 2. Compile the C++ Engine
+### 3. Compile the C++ Engine
 
 Compile the C++ code into a shared object (.so) file that Python can import. Run this in your project root:
 ```bash
