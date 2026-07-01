@@ -24,7 +24,7 @@ A high-performance, custom-built Pokémon battle simulator written in C++ and wr
 
 `play_vs_ai.py`: Scripts to battle against your trained RL model.
 
-`evaluate`.py: Benchmarks the trained model's win rate against baseline heuristics.
+`evaluate.py`: Benchmarks the trained model's win rate against baseline heuristics.
 
 `pokedex.csv`: Datasets containing base stats, typing, and move properties.
 
